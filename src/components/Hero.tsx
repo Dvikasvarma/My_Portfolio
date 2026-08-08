@@ -116,7 +116,7 @@ const Hero = () => {
         </h1>
 
         <p ref={subtitleRef} className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          Full Stack Developer crafting modern, responsive web apps with clean UI and robust backend architecture
+          CSE (AI/ML) Student · Data Specialist · AWS & Snowflake Certified · 300+ Problems Solved
         </p>
 
         <div ref={ctaRef} className="flex flex-col sm:flex-row items-center justify-center gap-4">
