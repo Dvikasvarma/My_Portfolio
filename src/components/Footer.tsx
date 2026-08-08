@@ -124,10 +124,6 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border/30 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-muted-foreground text-center md:text-left">
-            © 2025 Vikas Varma. All rights reserved.
-          </p>
-
           {/* <div className="flex items-center gap-2 text-muted-foreground">
             Made with
             <Heart size={16} className="text-accent-glow animate-pulse" />
