@@ -92,7 +92,12 @@ const Hero = () => {
   };
 
   const openResume = () => {
-    window.open('/Resume.pdf', '_blank');
+    const link = document.createElement('a');
+    link.href = '/Images/vikas-Resume.pdf';
+    link.download = 'vikas-Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
